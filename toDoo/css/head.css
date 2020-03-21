@@ -1,0 +1,49 @@
+#head {
+  height: 1.7em;
+  width: 100%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: rgb(118, 118, 189);
+  font-size: 3em;
+}
+
+.Btn {
+  color: wheat;
+  margin-right: 80px;
+  margin-top: 30px;
+  float: right;
+  border-color: rgb(65, 31, 31);
+  font-size: 0.5em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  height: 2em;
+  width: 6em;
+  background-color: transparent;
+  font-weight: bold;
+}
+.Btn:hover {
+  border-radius: 60px;
+  cursor: pointer;
+  box-shadow: 18px 50px black;
+  transition: 1s;
+}
+
+#centre {
+  margin-right: 10em;
+}
+
+.search {
+  margin-left: 35em;
+  margin-top: -2em;
+  opacity: 0.5;
+  width: 80px;
+  font-size: 0.5em;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: width 1s ease;
+}
+
+.search:hover {
+  opacity: 0.7;
+  color: black;
+  width: 420px;
+}

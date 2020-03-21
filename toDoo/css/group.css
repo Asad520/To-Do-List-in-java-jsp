@@ -1,0 +1,46 @@
+body {
+  background: url(bg.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: rgb(138, 138, 243);
+  margin: 0;
+  min-width: 250px;
+}
+h1 {
+  margin-left: 7em;
+  text-decoration: underline;
+}
+h2 {
+  margin-left: 5em;
+  text-decoration: underline;
+}
+.search {
+  height: 60%;
+}
+.search::placeholder {
+  text-align: center;
+  font-weight: 900;
+}
+#frm {
+  margin-left: 14em;
+  margin-top: 2em;
+}
+
+#frm button {
+  color: rgb(188, 224, 255);
+  font-size: 1.3em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  height: 3em;
+  width: 150px;
+  background-color: transparent;
+  font-weight: bold;
+  border-radius: 60px;
+}
+
+#frm button:hover {
+  cursor: pointer;
+  width: 580px;
+  box-shadow: 18px 50px 20px black;
+  transition: 1s;
+}
